@@ -1,37 +1,27 @@
 # Verilog功能模块--时钟分频
 
-#### 介绍
-Verilog功能模块--时钟分频，任意整数分频
+Gitee与Github同步
 
-#### 软件架构
-软件架构说明
+[Verilog功能模块--时钟分频: Verilog功能模块--时钟分频，任意整数分频 (gitee.com)](https://gitee.com/xuxiaokang/verilog-function-module--clkDivider)
 
+[zhengzhideakang/Verilog--moving-average: Verilog功能模块——滑动平均值（使用FIFO） (github.com)](https://github.com/zhengzhideakang/Verilog--moving-average)
 
-#### 安装教程
+## 简介
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+模块功能：对输入时钟进行任意倍数分频。
 
-#### 使用说明
+应用场景：
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 需要对时钟进行分频，而PLL不能满足要求或者使用起来不方便
 
-#### 参与贡献
+- 需要固定倍数关系的时钟
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- 需要运行时不断变化频率的时钟
 
+## 模块框图
 
-#### 特技
+<img src="https://picgo-dakang.oss-cn-hangzhou.aliyuncs.com/img/clkDivider.svg" alt="clkDivider" />
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 更多参考
+
+[Verilog功能模块——时钟分频 – 徐晓康的博客 (myhardware.top)](https://www.myhardware.top/verilog功能模块-时钟分频/)
